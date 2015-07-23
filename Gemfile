@@ -10,10 +10,11 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'devise', '~> 3.4.1'
+gem 'paperclip', '~> 4.3.0'
 
 group :development, :test do
   gem 'byebug'
-  gem 'sqlite3'
+  gem 'sqlite3', '~> 1.3.10'
   gem 'web-console', '~> 2.0'
   gem 'spring'
 end
